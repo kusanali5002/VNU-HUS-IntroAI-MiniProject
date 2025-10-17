@@ -1,69 +1,37 @@
-> ℹ️ **Note:**  
-> This template is created for students in the "Introduction to Artificial Intelligence" course at VNU-HUS (which I have participated in as a Lecturer) to propose their ideas for a mini-project in the Introduction to AI course. The content is provided in both English and Vietnamese.  
->  
-> ℹ️ **Chú ý:**  
-> Mẫu này được tạo ra cho sinh viên học phần "Nhập môn Trí tuệ Nhân tạo" tại VNU-HUS (mà tôi đã tham gia với vai trò Giảng viên) để đề xuất ý tưởng cho mini-project trong học phần này. Nội dung được cung cấp bằng cả tiếng Anh và tiếng Việt.  
->  
-> ✍️ **Instructions:** Fill in the details below in *one* language (English or Vietnamese), then **delete the other version** before submission. Please also **delete this remark and instruction section**.  
->  
-> ✍️ **Hướng dẫn:** Điền thông tin dự án bên dưới bằng *một* ngôn ngữ (Tiếng Anh hoặc Tiếng Việt), sau đó **xóa phiên bản còn lại** trước khi nộp. Đồng thời hãy **xóa phần ghi chú và hướng dẫn này**.  
->
-> 🔗 [🇬🇧 English Version](#-english-version) | 🔗 [🇻🇳 Phiên bản Tiếng Việt](#-phiên-bản-tiếng-việt)
-
------
-
-## 🇬🇧 English Version
-
-### 🏷️ Group Name
-Your group name goes here.
-
-### 📝 Project Title
-Title of your project goes here.
-
-### 👥 Team Members
-| 👤 Name 🧑‍🎓     | 🆔 Student ID 🧾     | 🐙 GitHub Username 🔗 |
-|------------------|---------------------|-----------------------|
-| [Your Name 1]    | [Your Student ID 1] | [Your GitHub Username 1] |
-| [Your Name 2]    | [Your Student ID 2] | [Your GitHub Username 2] |
-| [Your Name 3]    | [Your Student ID 3] | [Your GitHub Username 3] |
-
-### 🗒️ Summary
-Briefly describe your project (approx. 200–300 characters).
-
-### 🎯 Background
-Which problems will your project solve? What motivations led you to choose this topic? Why is this topic important or interesting?
-
-### 🚀 Plan
-How do you plan to carry out your project? What are the main steps or milestones? (e.g., data collection, modeling, evaluation, demo)
-
-### 📚 References
-List any references, papers, libraries, or datasets you used when deciding the topic.
-
------
-
-## 🇻🇳 Phiên bản Tiếng Việt
-
 ### 🏷️ Tên nhóm
-Tên nhóm của bạn.
+Nhóm 50
 
 ### 📝 Tên dự án
-Tên dự án của bạn.
+AI cảnh báo kẻ địch mạnh theo thời gian thực cho người chơi Genshin Impact.
 
 ### 👥 Thành viên nhóm
 | 👤 Họ và tên 🧑‍🎓  | 🆔 Mã sinh viên 🧾 | 🐙 Tên GitHub 🔗     |
 |------------------|---------------------|---------------------|
-| [Tên bạn 1]      | [Mã sinh viên 1]    | [Tên GitHub 1]      |
-| [Tên bạn 2]      | [Mã sinh viên 2]    | [Tên GitHub 2]      |
-| [Tên bạn 3]      | [Mã sinh viên 3]    | [Tên GitHub 3]      |
+|    Hà Mạnh Dũng  |       23001845      |   @kusanali5002     |
 
 ### 🗒️ Tóm tắt
-Mô tả ngắn gọn về dự án của bạn (khoảng 200–300 ký tự).
+Dự án "AI cảnh báo kẻ địch mạnh theo thời gian thực cho người chơi Genshin Impact" hướng tới mục đích xây dựng một hệ thống hỗ trợ người chơi (đặc biệt là người chơi mới chưa có nhiều kinh nghiệm thám hiểm). Thông qua việc ứng dụng thị giác máy tính (Computer Vision) và xử lý ảnh thời gian thực, hệ thống giúp người chơi nhận biết mối nguy hiểm sớm, đặc biệt khi đang thám hiểm hoặc di chuyển trong bản đồ rộng.
 
 ### 🎯 Bối cảnh
-Dự án của bạn sẽ giải quyết vấn đề gì? Động lực nào khiến bạn chọn chủ đề này? Tại sao chủ đề này quan trọng hoặc thú vị?
-
+- Người chơi mới trong Genshin Impact chưa biết nhiều về thế giới trong game, sẽ thường phải quan sát liên tục và thật tập trung để quan sát những mối nguy hiểm trong thế giới mở. Tuy nhiên trong quá trình tìm kiếm nguyên liệu nấu ăn, nâng cấp, mở rương,... hoặc chỉ đơn giản là mải mê ngắm cảnh đẹp sẽ dễ dàng lọt vào tầm ngắm của kẻ địch.
+- Dự án giúp người chơi được cảnh báo trước về những kẻ địch mạnh xuất hiện trong khu vực tầm nhìn để có thể có các đối sách phù hợp như dịch chuyển khỏi khu vực hay chuẩn bị thực phẩm để đối đầu..
+- Động lực : muốn sử dụng kiến thức của bản thân về AI để đóng góp cho cộng đồng ngưởi chơi Genshin Impact có một trải nghiệm suôn sẻ hơn vào giai đoạn đầu khi mọi thứ vẫn còn mới mẻ và khó khăn với người chơi.
+- Là một dự án nhỏ và thú vị khi kết hợp niềm đam mê chơi game cùng với Computer Vision và xử lý ảnh theo thời gian thực 
 ### 🚀 Kế hoạch
-Bạn dự định thực hiện dự án như thế nào? Các bước chính sẽ thực hiện là gì? (ví dụ: thu thập dữ liệu, xây dựng mô hình, đánh giá, demo)
+# Dự định thực hiện dự án
+- Sử dụng mô hình nhận diện vật thể (YOLOv8 chẳng hạn) để phát hiện quái vật trong khi đang chơi game hoặc video demo
+- Khi mô hình phát hiện kẻ địch mạnh, lập tức phát cảnh báo bằng giọng nói
+- Tiến hành chạy thử trên video ghi màn hình hoặc trực tiếp trong khi chơi game
+# Các bước thực hiện
+- Thu thập dữ liệu từ Hoyowiki những kẻ định mạnh (cấp tinh anh hoặc huyền thoại địa phương)
+- Tiền xử lí dữ liệu : cắt, gán nhãn và chia nhóm dữ liệu thành tập huấn và kiểm thử
+- Tinh chỉnh mô hình : sử dụng mô hình nhận diện YOLOv8 và tinh chỉnh nó
+- Tích hợp cảnh báo : viết script phát hiện quái vật theo thời gian thực và phát âm thanh cảnh báo bằng TTS
+- Đánh giá và thử nghiệm : kiểm tra độ chính xác cũng như tốc độ nhận nhiện kẻ địch
+- Demo : chạy thử trong khi chơi game để minh họa khả năng phát hiện và cảnh báo kẻ địch.
 
 ### 📚 Tài liệu tham khảo
-Liệt kê các tài liệu tham khảo, bài báo, thư viện hoặc tập dữ liệu bạn đã sử dụng khi quyết định chủ đề dự án.
+- Roboflow Blog – Tutorials on Object Detection and Dataset Annotation, [https://blog.roboflow.com/tag/object-detection/]
+- Hoyoverse : Genshin Monsters List, [https://genshin-impact.fandom.com/wiki/Enemy/List]
+- OpenCV Library – Computer Vision and Image Processing in Python.
+- Ultralytics. YOLOv8 Object Detection Documentation, [https://docs.ultralytics.com/]
